@@ -5,7 +5,7 @@ const express = require('express');
 const router = express.Router();
 
 const { getUsers, addUser, getUserById, deleteUser, updateUser, loginUser } =  require('../controller/userController');
-const checkLogin = require('../middlewares/CheckedLogin');
+const checkLogin = require('../middlewares/checkedLogin');
 
 // get users
 router.get('/users',  getUsers);
