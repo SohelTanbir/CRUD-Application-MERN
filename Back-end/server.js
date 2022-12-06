@@ -10,8 +10,6 @@ const { databaseConnection } = require('./database/databaseConnection.js');
 const router = require('./routes/route.js');
 
 
-
-
 // database connection 
 databaseConnection();
 
@@ -43,3 +41,5 @@ app.use(errorHandler);
 app.listen(process.env.PORT || '8080', () => {
     console.log(`Server is running ${process.env.PORT || 8080}`)
 })
+
+

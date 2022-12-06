@@ -1,0 +1,24 @@
+Alhumdulillah,
+I have done my first MERN Stack Project Called CRUD Application using MERN(MongoDB,Express,React and Node js).
+if you feel free you can see live demo of the Application and don't forget to share your valueable Feedback.
+Thanks.
+
+Project id:01
+Project Name: CRUD Application using MERN
+Features:
+	1.Login system.
+	2.Add New User.
+	3.User Read.
+	4.User Delete.
+	5.User Update.
+	6.Authentication required to Delete and Update User.
+	7.Data Filter based on User Roles.
+
+Technology:
+	1.React js
+	2.Node js
+	3.Express js
+	4.MongoDB(Mongoose)
+	5.other tools
+
+Live demo:https://crud-application-using-mern.netlify.app/
