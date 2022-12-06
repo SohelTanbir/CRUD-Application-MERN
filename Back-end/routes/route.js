@@ -7,6 +7,11 @@ const router = express.Router();
 const { getUsers, addUser, getUserById, deleteUser, updateUser, loginUser } =  require('../controller/userController');
 const checkLogin = require('../middlewares/checkedLogin');
 
+
+// welcome message
+router.get("/", (req, res)=>{
+    res.status(200).send("Server is working correctly");
+})
 // get users
 router.get('/users',  getUsers);
 
